@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
     post '/team' do
       #raise params.inspect
-       @team = params[:tname]
+       @tname = params[:tname]
        @coach = params[:coach]
        @pg = params[:pg]
        @sg = params[:sg]
