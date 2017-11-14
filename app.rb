@@ -11,12 +11,11 @@ class App < Sinatra::Base
 
     post '/team' do
       params.inspect
-      # puts params # to see in console 
+      # puts params # to see in console
       # team = params[ "what's in here"]
-      # #how do i pass the data to the team.erb template? 
+      # #how do i pass the data to the team.erb template?
       # team.each {|t| @t}
       #  t.
       erb :team
     end
 end
- 
