@@ -9,10 +9,8 @@ class App < Sinatra::Base
       erb :newteam
     end
 
-    get '/team' do
-        "Hello World"
-      end
-      
+    
+
     post '/team' do
       params.inspect
       @team = params
