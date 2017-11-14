@@ -11,7 +11,7 @@ class App < Sinatra::Base
     end
 
     post '/team' do
-      raise params.inspect
+      #raise params.inspect
       @team = params
 #send info and expecting something to change. you send params
       # puts params # to see in console
