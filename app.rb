@@ -18,7 +18,7 @@ class App < Sinatra::Base
       # team = params[ "what's in here"]
       # #how do i pass the data to the team.erb template?
        @team.each {|k,v| @v}
-      binding.pry
+    
       erb :team
     end
 end
